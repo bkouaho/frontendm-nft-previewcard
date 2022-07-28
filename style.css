@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    height: 600px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 0px solid blue;
+    width: 250px;
+    height: 460px;
+    border-radius: 0.6rem;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content:center;    
+    
+}
+.card-header{
+    border: 0px solid blue;
+    width: 220px;
+    height: 225px;
+    margin-top: 10px;
+    border-radius: 0.5rem;
+    position: fixed;
+
+}
+.card-main{
+    border: 0px solid blue;
+    width: 220px;
+    height: 215px; 
+    position: relative;
+    top: 237px;
+}
+.img-equilib{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+@font-face {
+    font-family: "Outfit";
+    src:local(Outfit ExtraBold),
+        local(OutfitLight),
+        local(OutfitSemiBold);
+}        
+.p-equi{
+    font-family: "Outfit ExtraBold";
+    font-weight: 600px;
+    color: white;    
+}
+.p-our{
+    font-family: "OutfitLight" ;
+    font-weight:lighter;
+    color: rgb(181, 181, 240);
+    
+}
+
+.box{
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    border: 0px solid;   
+    
+}
+.box2{
+    border: 0px solid;
+    
+}
+.strongtext{
+    font-family: "Outfit ExtraBold";
+    color: rgb(37, 151, 107);
+}
+.strongleft{
+    font-family: "OutfitLight";
+    color: rgb(181, 181, 240);
+}
+.strongcreat{
+    font-family: "OutfitLight";
+    color:rgb(181, 181, 240);
+}
+b{
+    font-family: "OutfitLight";
+    color: white;
+    
+}
+.line{
+    border-top: 1px solid hsl(0, 0%, 100%);
+    
+}
+.avatar{
+    border: 0px solid hsl(0, 0%, 100%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.img-avatar{
+   border-radius: 50%;
+   border: 1px solid white;
+}
+
+.parent-avatar{
+    display: flex;
+    align-items: center;
+}
+.creat-avatar{
+    padding-left: 10px;
+}
